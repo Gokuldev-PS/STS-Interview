@@ -33,7 +33,6 @@ print(arr[-2])
   
 ### Possible/Expected Answers
 Sample Python Code without sorting :
-Expected Answer:
 ```python
 scores = [45, 30, 40, 40, 50]  # example list of scores
 
@@ -55,7 +54,6 @@ print("The runner-up score is:", runner_up_score)
 ```
 
 Sample Python code which calcuates the sum if there are two second postitions
-Expected Answer:
 
 ```python
 scores = [10, 20, 30, 40, 50, 40]  # example list of scores
