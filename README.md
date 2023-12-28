@@ -1,4 +1,4 @@
-# STS-Interview - Array/List Question
+# STS-Interview - Find the Runner-Up 
 
 ### **Question**
 
