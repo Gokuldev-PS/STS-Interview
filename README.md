@@ -1,24 +1,36 @@
 # STS-Interview - Array/List Question
 
-### Code Snippet
+### **Question**
 
-    ```python
-    def predict_the_function(arr):
-      ms= cs = arr[0]
-      for num in arr[1:]:
-        cs = max(num, cs + num)
-        ms = max(ms, cs)
-      return ms
-    numbers = [1, -2, 3, -4, 5, -3, 2, -1]
-    result = predict_the_function(numbers)
-    print(result)
-     ```
+> **_Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given scores. Store them in a list and find the score of the runner-up._**
 
-### Questions to the Candidate
-- Explain the purpose of this Python code, including the function predict_the_function.
-- Identify any potential issues or improvements in the code
-- Modify the code to handle the potential issues.
+> **_If the following string is given as input to the program:_**
+>
+> ```
+> 5
+> 2 3 6 6 5
+> ```
+>
+> **_Then, the output of the program should be:_**
+>
+> ```
+> 5
+> ```
 
+
+### Sample Solution
+```python
+n = int(input())
+arr = map(int, input().split())
+arr = list(set(arr))
+arr.sort()
+print(arr[-2])
+```
+
+### Questions that can be asked to the candidate 
+- If the Candidate is using sorting ask them to do without sorting
+- Ask the candidate to modify the code to print the average incase there are multiple runners-up
+  
 ### Possible/Expected Answers
 Explain the purpose of this Python code:
 Expected Answer:
